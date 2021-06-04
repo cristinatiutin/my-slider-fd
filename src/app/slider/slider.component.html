@@ -1,1 +1,14 @@
-<p>slider works!</p>
+<ul>
+  <li *ngFor="let item of src; let i = index">
+    <img class="myImg" id={{item}}{{i}} src="{{item}}" alt="{{alt[i]}}" (click)="imgClick(item + i.toString())"/>
+  </li>
+</ul>
+<label>{{description}}</label>
+<button (click)="reverse()">Reverse</button>
+<div id="myModal" class="modal" (click)="modalClick()">
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
