@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 The component is found in /src/app/slider. Copy the directory in your Angular app and in app.module.ts import:
 
-`import {SliderComponent} from "./slider/slider.component";';`
+`import {SliderComponent} from "./slider/slider.component";`
 
 and declare:
 
